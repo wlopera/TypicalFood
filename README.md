@@ -1,6 +1,6 @@
 # TypicalFood
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
+Proyecto para mostrar comidas tipicas por paises. Realizado con [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
 ## Development server
 
@@ -25,3 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Ejemplo
+![comidaTipica1](https://user-images.githubusercontent.com/7141537/68144527-e5fb1b80-ff01-11e9-8d5d-23d296244dcb.PNG)
