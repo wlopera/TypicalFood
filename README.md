@@ -1,6 +1,6 @@
-# TypicalFood
+# TypicalFood             autor: wlopera      @ NOV 2019
 
-Proyecto para mostrar comidas tipicas por paises. Realizado con [Angular CLI](https://github.com/angular/angular-cli) versión 8.3.8.
+Proyecto mostrar comidas tipicas por paises. Realizado con [Angular CLI](https://github.com/angular/angular-cli) versión 8.3.8.
 
 ## Servidor
 
