@@ -1,0 +1,28 @@
+<div *ngIf="food">
+    <h2>{{food.name | uppercase}} - {{food.from | uppercase}}</h2>
+    <hr>
+    <div class="foodDescription">
+        <div *ngFor="let data of food.description">
+            <p>{{data}}</p>
+        </div>
+    </div>
+
+    <br>
+    <h2>Ingredientes</h2>
+    <div class="foodIngredient">
+        <p>{{food.ingredients}}</p>
+    </div>
+
+    <br>
+    <h2>Caracteristicas</h2>
+    <div class="foodCharacteristic">
+        <div *ngFor="let data of food.characteristics">
+            <p>{{data}}</p>
+        </div>
+    </div>
+
+    <br>
+    <div class="image">
+        <img src="{{food.image}}" border="2">
+    </div>
+</div>

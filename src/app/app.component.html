@@ -1,17 +1,2 @@
-<div>
-    <ul>
-        <li *ngFor="let food of foods">
-            <strong>{{food.name | uppercase}}</strong>
-            <br>
-
-            <div *ngFor="let data of food.description">
-                <p>{{data}}</p>
-            </div>
-            <strong>Caracteristicas</strong>
-            <div *ngFor="let data of food.characteristics">
-                <p>{{data}}</p>
-            </div>
-            <div style="text-align: center;"><img [src]="food.image" alt="Plato tipico imagen"></div>
-        </li>
-    </ul>
-</div>
+<h1>Comidas Tipicas por Paises</h1>
+<app-foods></app-foods>

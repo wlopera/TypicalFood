@@ -1,0 +1,9 @@
+<div>
+    <ul class="foods">
+        <li *ngFor="let food of foods" [class.selected]="food === selectedFood" (click)="onSelected(food)">
+            <span class="foodId">{{food.id}}</span> {{food.name}}
+        </li>
+    </ul>
+
+    <app-food-details [food]="selectedFood"></app-food-details>
+</div>

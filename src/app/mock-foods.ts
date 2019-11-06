@@ -12,7 +12,7 @@ export const FOODS: Food[] = [
       ],
 
     from: 'Venezuela',
-    ingredients: 'arroz blanco cocido, carne desmechada, caraotas negras "refritas", tajadas de plátano maduro frito.',
+    ingredients: 'Arroz blanco cocido, carne desmechada, caraotas negras "refritas", tajadas de plátano maduro frito.',
     characteristics: [
       'Existen variaciones del plato original:',
       'Pabellón con baranda: las tajadas de plátano son dispuestas alrededor del plato formando una baranda.',
@@ -94,7 +94,7 @@ export const FOODS: Food[] = [
         'Desde 1989, tiene lugar anualmente en Italia un Campeonato Mundial de la Pizza que realiza varias competencias relacionadas con la elaboración de la pizza, premiando a quienes obtengan los tres primeros lugares en cada una de ellas.11​12​ En la edición de 2018 participaron 773 pizzaioli provenientes de 44 países.'
       ],
     from: 'Nápoles - Italia',
-    ingredients: 'salsa de tomate, harina, mozzarella, aceite y sal',
+    ingredients: 'Salsa de tomate, harina, mozzarella, aceite y sal',
     characteristics:
       [
         'La palabra pizza se utiliza en varios idiomas. Su origen se encuentra discutido. Manlio Cortelazzo y Paolo Zolli sostienen que se trata de un término derivado del alemán antiguo, que influenció el habla de los pueblos lombardos, entre los siglos XI y XII.22​ Mario Alinei y Ephraim Nissan sostienen que tiene un origen semítico, procedente del Asia occidental.23​ Otras hipótesis la derivan del latín pinsere o de la palabra griega pitta.',
@@ -195,7 +195,7 @@ export const FOODS: Food[] = [
       ],
 
     from: 'Valencia - España',
-    ingredients: 'arroz, aceite de oliva, Azafrán, pollo, conejo, ejote, sal, tomate, pallar y Agua',
+    ingredients: 'Arroz, aceite de oliva, Azafrán, pollo, conejo, ejote, sal, tomate, pallar y Agua',
     characteristics: [
       'La palabra española paella proviene directamente del valenciano y significa -sartén-;​ deriva del latín patella, como también derivan el antiguo español padilla, el leonés payecha/payella, antiguo paila [painlla en Ancares], el italiano padella o el francés poêle. En latín patella es un diminutivo de patina, que significa plato plano y ancho, o bien sartén.',
       'En español la palabra paella se usa sobre todo para la receta, mientras que para el recipiente típicamente usado para cocinarla (sartén ancha con dos asas) se suele decir paellera y más raramente también paella.',

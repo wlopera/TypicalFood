@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
 
-import { Food } from './food';
-import { FOODS } from './mock-foods';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,6 +7,4 @@ import { FOODS } from './mock-foods';
 })
 export class AppComponent {
   title = 'COMIDAS TIPICAS';
-  foods: Food[] = FOODS;
-
 }

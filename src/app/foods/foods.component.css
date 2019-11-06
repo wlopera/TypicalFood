@@ -1,0 +1,55 @@
+/* foodsComponent's private CSS styles */
+
+.selected {
+    background-color: #81F7F3 !important;
+    color: #000000;
+}
+
+.foods {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 18em;
+}
+
+.foods li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #58ACFA;
+    margin: .5em;
+    padding: .3em 0;
+    height: 2.4em;
+    border-radius: 4px;
+}
+
+.foods li.selected:hover {
+    background-color: #BBD8DC !important;
+    color: white;
+}
+
+.foods li:hover {
+    color: #000000;
+    background-color: #DDD;
+    left: .1em;
+}
+
+.foods .text {
+    position: relative;
+    top: -3px;
+}
+
+.foods .foodId {
+    display: inline-block;
+    font-size: large;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #0431B4;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+}
