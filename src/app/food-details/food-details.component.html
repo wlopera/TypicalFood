@@ -6,6 +6,7 @@
     </div>
     <br>
     <div class="foodDescription">
+        <button (click)="goBack()" class='btn btn-warning'>Retornar</button>
         <div *ngFor="let data of food.description">
             <p>{{data}}</p>
         </div>
@@ -23,5 +24,6 @@
         <div *ngFor="let data of food.characteristics">
             <p>{{data}}</p>
         </div>
+        <button (click)="goBack()" class='btn btn-warning'>Retornar</button>
     </div>
 </div>

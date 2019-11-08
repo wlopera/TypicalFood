@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+.foodDescription {
+    font-size: x-large;
+    color: white;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    background-color: #0B3861;
+    position: relative;
+    text-align: justify;
+}
+
+.foodIngredient {
+    font-size: x-large;
+    color: white;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    background-color: #0B3861;
+    position: relative;
+    text-align: justify;
+}
+
+.foodCharacteristic {
+    font-size: x-large;
+    color: white;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    background-color: #0B3861;
+    position: relative;
+    text-align: justify;
+}
+
+.image {
+    margin: 2px;
+    border-radius: 2px;
+    display: block;
+    text-align: center;
+}
+
+.limitText {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

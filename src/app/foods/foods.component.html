@@ -1,9 +1,26 @@
-<div>
-    <ul class="foods">
-        <li *ngFor="let food of foods" [class.selected]="food === selectedFood" (click)="onSelected(food)">
-            <span class="foodId">{{food.id}}</span> {{food.name}}
-        </li>
-    </ul>
-
-    <app-food-details [food]="selectedFood"></app-food-details>
-</div>
+<div class="">
+    <h1 class="bl2">Platos Tipicas</h1>
+    <div class="row col-sm-10">
+        <div class="col-sm-3">
+            <ul class="foods">
+                <li *ngFor="let food of foods" [class.selected]="food === selectedFood" (click)="onSelected(food)">
+                    <span class="foodId">{{ food.id }}</span> {{ food.name }}
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-7">
+            <div *ngIf="selectedFood">
+                <h2>{{ selectedFood.name | uppercase }} - {{ selectedFood.from | uppercase }}</h2>
+                <hr>
+                <div class="image">
+                    <img src="{{selectedFood.image}}" border="2">
+                </div>
+                <br>
+                <div class="foodDescription">
+                    <a routerLink="/detail/{{ selectedFood.id }}">
+                        <p class="limitText">{{ selectedFood.description }} </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
