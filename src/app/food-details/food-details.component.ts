@@ -26,7 +26,7 @@ export class FoodDetailsComponent implements OnInit {
   getData(): void {
     const id = this.route.snapshot.paramMap.get('id');
 
-    this.food = this.foods.find(x => x.id == id);
+    this.food = this.foods.find(x => new String(x.id) == id);
 
   }
 
