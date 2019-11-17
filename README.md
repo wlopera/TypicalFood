@@ -2,6 +2,8 @@
 
 Proyecto mostrar comidas tipicas por paises. Realizado con [Angular CLI](https://github.com/angular/angular-cli) versión 8.3.8.
 
+ver: https://github.com/wlopera/TypicalFoodRestJava.git
+
 ## Servidor
 
 Correr ng serve' para servidor de desarrollo. Navega a  'http://localhost:4200/'. La aplicación debe automaticamente llamarse y rellamarse si ocurre un cambio en algún archivo.
